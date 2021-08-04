@@ -55,8 +55,15 @@
 
 .chat-3bRxxu,
 .container-1D34oG {
-	margin: 15px;
+  margin: 15px;
+  margin-right: 0px;
   border-radius: 10px!important;  
+}
+
+.threadSidebar-1o3BTy {
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .sidebarRegion-VFTUkN{
@@ -79,7 +86,8 @@
 .container-2Pjhx-:hover,
 .content-1x5b-n,
 .content-1x5b-n:hover,
-.embed-IeVjo6{
+.embed-IeVjo6,
+.threadSidebar-1o3BTy {
   border-radius: 10px!important;
 }
 
