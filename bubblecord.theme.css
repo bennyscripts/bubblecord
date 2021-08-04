@@ -1,0 +1,194 @@
+@import url("https://kckarnige.is-a.dev/femboi_owo/discord-font.css");
+
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i,
+.layer-3QrUeG[aria-label="USER_SETTINGS"] .contentRegion-3nDuYy{
+  background-color: var(--background-tertiary);
+}
+
+.actionButtons-14eAc_>:last-child {
+  position: relative;
+  right: 9px;
+}
+
+.menu-3sdvDG {
+  border-radius: 10px!important;
+}
+
+.sidebar-2K8pFh {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-radius: 10px!important;
+}
+
+.panels-j1Uci_,
+.members-1998pB {
+  margin: 15px;
+  border-radius: 10px!important;
+}
+
+.chat-3bRxxu,
+.container-1D34oG {
+	margin: 15px;
+  border-radius: 10px!important;  
+}
+
+.sidebarRegion-VFTUkN{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.sidebarRegionScroller-3MXcoP,
+.contentRegionScroller-26nc1e,
+.channelTextArea-2VhZ6z .scrollableContainer-2NUZem,
+.contentWrapper-SvZHNd, 
+.contentWrapper-SvZHNd .result-3w1ZcL,
+.popout-103y-5,
+.messagesPopoutWrap-1MQ1bW,
+.quickswitcher-3JagVE,
+.input-2VB9rf,
+.result-oB0z--,
+.container-2Pjhx-,
+.container-2Pjhx-:hover,
+.content-1x5b-n,
+.content-1x5b-n:hover,
+.embed-IeVjo6{
+  border-radius: 10px!important;
+}
+
+.contentRegion-3nDuYy {
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 15px;
+ 	margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+.guilds-1SWlCJ {
+	margin: 15px;
+  border-radius: 10px!important;
+}
+
+.scroller-1Bvpku {
+  background: #292B2F!important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.scroller-1Bvpku .tutorialContainer-2sGCg9 {
+  padding-top: 10px;
+}
+
+/*
+.sidebar-2K8pFh,
+.chat-3bRxxu,
+.container-1D34oG,
+.guilds-1SWlCJ,
+.sidebarRegionScroller-3MXcoP,
+.contentRegionScroller-26nc1e {
+  border: 2px solid #EB459E;
+}
+*/
+
+.role-2irmRk {
+  border-radius: 10px;
+}
+
+.avatarPositionNormal-aZjAsn+.headerTop-3vNv-a {
+  padding-top: 70px!important;
+}
+
+.avatarPositionNormal-aZjAsn {
+  top: -45px!important;
+}
+
+/* title bar */
+
+.typeWindows-1za-n7 {
+  height: 50px;
+}
+
+.winButton-iRh8-Z {
+  height: 34px;
+  width: 34px;
+  top: 12px;
+  left: -15px;
+  border-radius: 25px;
+  margin-left: 8px;
+  transition: all .1s;
+  color: #202225;
+}
+
+.winButtonClose-1HsbF- {
+  border: 2px solid #ED4245;
+}
+
+.winButtonClose-1HsbF-:hover {
+  color: #ED4245;
+}
+
+.winButtonMinMax-PBQ2gm[aria-label="Minimise"] {
+  border: 2px solid #FEE75C;
+}
+
+.winButtonMinMax-PBQ2gm[aria-label="Maximise"] {
+  border: 2px solid #57F287;
+}
+
+.winButtonMinMax-PBQ2gm[aria-label="Minimise"]:hover {
+  background-color:#FEE75C;
+  color: #FEE75C;
+}
+
+.winButtonMinMax-PBQ2gm[aria-label="Maximise"]:hover {
+  background-color:#57F287;
+  color: #57F287;
+}
+
+.wordmark-2iDDfm svg {
+    width: 0px;
+}
+.wordmark-2iDDfm::after {
+    position: absolute;
+    font-family: "Ginto";
+    content: "bubblecord";
+    top: 25px;
+  	left: 18px;
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--wordmark-text-color);
+    height: 19px;
+    width: 235px;
+    transform: translateY(-8%);
+    line-height: 20px;
+}
+
+/* coloured profile card borders */
+
+.userPopout-xaxa6l .banner-2QYc2d {
+    position: absolute;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    top: -2px;
+    left: -2px;
+    background-size: calc(100% - 2px);
+    background-position: center 2px;
+    border-radius: 10px;
+}
+.userPopout-xaxa6l .banner-2QYc2d:after {
+    content: "";
+    display: block;
+    background-color: inherit;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    width: 100%;
+    height: 124px;
+    clip-path: path("M 2 12 Q 2 2 12 2 L 292 2 Q 302 2 302 12 L 302 123 L 304 123 L 304 0 L 0 0 L 0 123 L 2 123 L 2 12");
+}
+.headerTop-3vNv-a, .body-3HBlXn, .footer-3UKYOU {
+    background-color: var(--background-floating) !important;
+}
+.avatarPositionNormal-aZjAsn {top: 16px;}
+.avatarPositionNormal-aZjAsn+.headerTop-3vNv-a {padding-top: 119px;}
+.avatarPositionPremium-3We5Ho+.headerTop-3vNv-a {margin-top: 119px;}
+.avatarPositionNormal-aZjAsn+.headerTop-3vNv-a>.profileBadges-ohc0Vu {top: 75px;}
