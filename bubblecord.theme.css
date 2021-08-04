@@ -8,6 +8,25 @@
 
 @import url("https://kckarnige.is-a.dev/femboi_owo/discord-font.css");
 
+:root {
+  --blurple: #5865F2;
+  --blurple-hover: #4651c8;
+}
+
+.theme-dark {
+  --background-primary: #23272A;
+  --background-secondary: #1a1e21;
+  --background-secondary-alt: #15181b;
+  --background-tertiary: #111416;
+  --channeltextarea-background: #1a1e21;
+  --background-floating: #111416;
+
+  --scrollbar-auto-thumb: #0000004a;
+  --scrollbar-auto-track: #00000036;
+
+  --background-modifier-accent: hsla(0, 0%, 100%, 0.03);
+}
+
 .layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i,
 .layer-3QrUeG[aria-label="USER_SETTINGS"] .contentRegion-3nDuYy{
   background-color: var(--background-tertiary);
@@ -124,7 +143,7 @@
   border-radius: 25px;
   margin-left: 8px;
   transition: all .1s;
-  color: #202225;
+  color: var(--background-tertiary);
 }
 
 .winButtonClose-1HsbF- {
@@ -200,32 +219,6 @@
 .avatarPositionNormal-aZjAsn+.headerTop-3vNv-a {padding-top: 119px;}
 .avatarPositionPremium-3We5Ho+.headerTop-3vNv-a {margin-top: 119px;}
 .avatarPositionNormal-aZjAsn+.headerTop-3vNv-a>.profileBadges-ohc0Vu {top: 75px;}
-
-/**
-* @name Brand New
-* @author Ben
-* @description This theme brings Discords new rebranded font and colours to the current look and feel of Discord.
-* @version 1.0.0
-*/
-
-:root {
-  --blurple: #5865F2;
-  --blurple-hover: #4651c8;
-}
-
-.theme-dark {
-  --background-primary: #23272A;
-  --background-secondary: #1a1e21;
-  --background-secondary-alt: #15181b;
-  --background-tertiary: #111416;
-  --channeltextarea-background: #1a1e21;
-  --background-floating: #111416;
-
-  --scrollbar-auto-thumb: #0000004a;
-  --scrollbar-auto-track: #00000036;
-
-  --background-modifier-accent: hsla(0, 0%, 100%, 0.03);
-}
 
 body, button {
   font-family: "Ginto", sans-serif!important;
