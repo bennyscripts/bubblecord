@@ -78,7 +78,7 @@
 }
 
 .scroller-1Bvpku {
-  background: #292B2F!important;
+  background: var(--background-secondary-alt)!important;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -200,3 +200,147 @@
 .avatarPositionNormal-aZjAsn+.headerTop-3vNv-a {padding-top: 119px;}
 .avatarPositionPremium-3We5Ho+.headerTop-3vNv-a {margin-top: 119px;}
 .avatarPositionNormal-aZjAsn+.headerTop-3vNv-a>.profileBadges-ohc0Vu {top: 75px;}
+
+/**
+* @name Brand New
+* @author Ben
+* @description This theme brings Discords new rebranded font and colours to the current look and feel of Discord.
+* @version 1.0.0
+*/
+
+:root {
+  --blurple: #5865F2;
+  --blurple-hover: #4651c8;
+}
+
+.theme-dark {
+  --background-primary: #23272A;
+  --background-secondary: #1a1e21;
+  --background-secondary-alt: #15181b;
+  --background-tertiary: #111416;
+  --channeltextarea-background: #1a1e21;
+  --background-floating: #111416;
+
+  --scrollbar-auto-thumb: #0000004a;
+  --scrollbar-auto-track: #00000036;
+
+  --background-modifier-accent: hsla(0, 0%, 100%, 0.03);
+}
+
+body, button {
+  font-family: "Ginto", sans-serif!important;
+}
+
+.barFill-23-gu- {
+  background: var(--blurple);
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+  background-color: var(--blurple);
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+  background-color: var(--blurple-hover);
+}
+
+.title-29uC1r, .name-1jkAdW {
+  font-size: 18px!important;
+}
+
+.membersGroup-v9BXpm {
+  font-weight: bold;
+}
+
+.userPopout-3XzG_A .body-3iLsc4 .rolesList-22qj2L .roleCircle-3xAZ1j::before {
+  background: inherit;
+}
+
+.theme-dark .container-1D34oG, .pageWrapper-1PgVDX {
+  background-color: var(--background-primary)!important;
+}
+
+.content-2M3n_H a {
+  color: white!important;
+}
+
+.markup-2BOw-j a {
+  color: #959dfc;
+}
+
+.connectedAccounts-repVzS {
+  margin-top: 0px;
+  justify-content: space-evenly;
+}
+
+.theme-dark .connectedAccount-36nQx7 {
+  margin-top: 5px;
+  background-color: var(--background-modifier-accent);
+}
+
+.activity-fViXj7 {
+  padding: 16px 16px 16px;
+}
+
+.theme-dark .body-3iLsc4 {
+  background-color: #0e1113;
+}
+
+.theme-dark .footer-1fjuF6 {
+  background-color: #0e1113;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
+  background-color: #292d33;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+  background-color: #2f343b;
+}
+
+.setIdentityLink-OpBDR6 {
+  display: none;
+}
+
+.customStatus-3NamXG .customStatusEmoji-1itGdP:not(:last-child) {
+  margin-right: 4.8px;
+}
+
+.theme-dark .uploadModal-2ifh8j {
+  background-color: var(--background-primary);
+}
+
+.theme-dark .footer-3mqk7D {
+  background-color: var(--background-secondary);
+}
+
+.theme-dark .hljs {
+  background-color: #1A1E21;
+}
+
+.messageAttachment-1aDidq {
+  width: 100%;
+}
+
+.theme-dark .root-1gCeng {
+  background-color: var(--background-primary);
+}
+
+.theme-dark .footer-2gL1pp {
+  background-color: var(--background-secondary);
+}
+
+.embedFull-2tM8-- {
+  border-radius: 8px;
+}
+
+#GHOSTCOMMANDSDIVWRAPPER {
+  background: linear-gradient(180deg, rgba(26, 30, 33,1) 65%, rgba(14,20,24,0) 10%)!important;
+}
+
+.GHOSTCOMMANDLISTITEM {
+  background-color: #23272A;
+}
+
+.GHOSTCOMMANDLISTITEM:hover {
+  background-color: rgb(32, 36, 39);
+}
