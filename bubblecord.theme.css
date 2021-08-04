@@ -3,7 +3,7 @@
 * @author Benny
 * @description This theme makes everything popout and have rounded corners, bubbles.
 * @source https://raw.githubusercontent.com/ilyBenny/bubblecord/main/bubblecord.theme.css
-* @version 1.0.0
+* @version 1.0.1
 */
 
 @import url("https://kckarnige.is-a.dev/femboi_owo/discord-font.css");
@@ -56,7 +56,6 @@
 .chat-3bRxxu,
 .container-1D34oG {
   margin: 15px;
-  margin-right: 0px;
   border-radius: 10px!important;  
 }
 
@@ -64,6 +63,7 @@
   margin-right: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
+  margin-left: 0px;
 }
 
 .sidebarRegion-VFTUkN{
