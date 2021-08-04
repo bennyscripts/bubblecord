@@ -8,4 +8,4 @@ cd powercord/src/Powercord/themes && git clone https://github.com/ilyBenny/bubbl
 ```
 
 ### Preview
-![](https://hypixel.lol/raw/twmFF9LR.png)
+![](https://hypixel.lol/raw/pvHqSfcO.png)
