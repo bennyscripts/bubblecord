@@ -1,7 +1,7 @@
 {	
   "name": "bubblecord",
   "description": "This theme makes everything popout and have rounded corners, bubbles.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Benny",
   "license": "MIT",
   "theme": "bubblecord.theme.css",
