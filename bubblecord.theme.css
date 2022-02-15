@@ -3,7 +3,7 @@
 * @author Benny
 * @description This theme makes everything popout and have rounded corners, bubbles.
 * @source https://raw.githubusercontent.com/ilyBenny/bubblecord/main/bubblecord.theme.css
-* @version 1.0.7
+* @version 1.0.8
 */
 
 @import url("https://kckarnige.is-a.dev/femboi_owo/discord-font.css");
@@ -27,6 +27,8 @@
   --background-modifier-accent: hsla(0, 0%, 100%, 0.03);
 }
 
+.peopleColumn-1wMU14 { background-color: var(--background-primary); }
+
 .layer-3QrUeG[aria-label="USER_SETTINGS"] .standardSidebarView-3F1I7i,
 .layer-3QrUeG[aria-label="USER_SETTINGS"] .contentRegion-3nDuYy, 
 .layer-3QrUeG[aria-label="GUILD_SETTINGS"] .standardSidebarView-3F1I7i,
@@ -41,61 +43,35 @@
   right: 9px;
 }
 
-.menu-3sdvDG {
+.menu-3sdvDG,
+.sidebarRegionScroller-FXiQOh {
   border-radius: 10px!important;
 }
 
-.chatHeaderBar-4vZS1x {
-margin: 15px;
-border-radius: 10px!important;
+.guilds-2JjMmN .scroller-3X7KbA {
+  margin-left: 10px;
 }
 
-.sidebar-2K8pFh {
-  margin-bottom: 15px;
-  margin-top: 15px;
+.sidebar-1tnWFu,
+.chat-2ZfjoI,
+.container-2cd8Mz,
+.sidebarRegion-1VBisG,
+.contentRegionShownSidebar-fHXkEg {
   border-radius: 10px!important;
-}
-
-.notice-3bPHh- {
-margin-top: 15px;
-margin-right: 15px;
-border-radius: 10px!important;
-}
-
-.panels-j1Uci_,
-.members-1998pB {
-  margin: 15px;
-  border-radius: 10px!important;
-}
-
-.chat-3bRxxu,
-.container-1D34oG,
-.pageWrapper-1PgVDX {
-  margin: 15px;
-  border-radius: 10px!important;  
-}
-
-.notice-3uyY6c {
-	margin-top: 15px;
-	margin-right: 15px;
-}
-
-.threadSidebar-1o3BTy {
-  margin-right: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 0px;
-}
-
-.sidebarRegion-VFTUkN{
-  margin-top: 15px;
-  margin-bottom: 15px;
   margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.chat-2ZfjoI,
+.container-2cd8Mz,
+.contentRegionShownSidebar-fHXkEg {
+  margin-right: 15px;
 }
 
 .sidebarRegionScroller-3MXcoP,
 .contentRegionScroller-26nc1e,
-.channelTextArea-2VhZ6z .scrollableContainer-2NUZem,
+.channelTextArea-1FufC0 .scrollableContainer-15eg7h,
 .contentWrapper-SvZHNd, 
 .contentWrapper-SvZHNd .result-3w1ZcL,
 .popout-103y-5,
