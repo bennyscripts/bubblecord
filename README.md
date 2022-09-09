@@ -1,15 +1,18 @@
-# bubblecord
-A BetterDiscord and powercord theme that makes everything popout and have rounded corners, bubbles.  
+### Bubblecord
 
-### Installation
-- Goosemod: Open the theme store and search for Bubblecord, choose the one by Benny.
-- Betterdiscord: Download `bubblecord.theme.css` and put it in your themes folder.
-- Powercord: Open terminal and run the below command.
-```
-cd powercord/src/Powercord/themes && git clone https://github.com/ilyBenny/bubblecord
-```  
+> This theme makes everything popout and have rounded corners, bubbles.
 
-### Previews
-![](https://cdn.discordapp.com/attachments/875027647858618432/875028569544339456/unknown.png)
-![](https://cdn.discordapp.com/attachments/875027647858618432/875028594320097349/unknown.png)
-![](https://cdn.discordapp.com/attachments/875027647858618432/875028605296603166/unknown.png)
+## Preview
+
+![Preview](https://pomf.invoked.me/ebULaMwQ.png)
+
+## Installation
+#### BetterDiscord
+- Visit [this link](https://raw.githubusercontent.com/bentettmar/bubblecord/main/bubblecord.theme.css)
+- Press **`Ctrl + S`** or **`⌘ + S`** and save it into your betterdiscord themes folder
+
+#### Powercord / Replugged / Vizality
+`git clone https://github.com/bentettmar/bubblecord`
+
+### GooseMod
+- Go to the themes store in GooseMod and search for "bubblecord" and press the install button.
