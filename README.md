@@ -1,6 +1,6 @@
 ### Bubblecord
 
-> This theme makes everything popout and have rounded corners, bubbles.
+> A BetterDiscord and powercord theme that makes everything popout and have rounded corners, bubbles.
 
 ## Preview
 
